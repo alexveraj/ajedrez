@@ -48,7 +48,7 @@ export function celebrate() {
         return Math.random() * (max - min) + min;
     }
 
-    const audio = new Audio("/chess-vite/audio/fireworks.mp3");
+    const audio = new Audio("/ajedrez/audio/fireworks.mp3");
     audio.play();
     //cuando finale el audio volver a reproducirlo
     let counter = 0;
